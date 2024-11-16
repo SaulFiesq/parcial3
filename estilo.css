@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Londrina+Sketch&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    background-color: rgba(96, 96, 255, 0.658);
+}
+
+header {
+    font-family: "Knewave", system-ui;
+    align-items: center;
+    text-align: center;
+    text-shadow: #333 10px, 10px, 10px;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+main {
+    display: flex; /* Utiliza Flexbox para alinear horizontalmente */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay suficiente espacio */
+    justify-content: space-between; /* Espacio entre los elementos */
+    padding: 20px;
+    background-image: url(../21OCT/images/Gohan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(6px, 6px, 6px);
+}
+
+section {
+    flex: 1; /* Cada sección ocupará el mismo espacio */
+    min-width: 300px; /* Ancho mínimo para cada sección */
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+    width: 600px;
+    height: 400px;
+    align-self: baseline;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: #000000;
+    font-family: "Londrina Sketch", serif;
+    filter: drop-shadow(6px, 6px, 6px);
+}
