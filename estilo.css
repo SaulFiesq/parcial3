@@ -61,7 +61,7 @@ main {
     flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay suficiente espacio */
     justify-content: space-between; /* Espacio entre los elementos */
     padding: 20px;
-    background-image: url(../21OCT/images/Gohan.jpg);
+    background-color: purple;
     background-repeat: no-repeat;
     background-size: cover;
     filter: drop-shadow(6px, 6px, 6px);
